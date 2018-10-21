@@ -61,11 +61,16 @@ a:hover,a:active,a:focus{
     font-weight: 300;
     text-align: center;
     overflow: hidden;
-    margin-bottom: 70px;
+	margin-bottom: 70px;
+	color: rgb(0, 0, 0);
 }
+#block_title_port{
+	color: #fff;
+}
+
 .block_title:before,.block_title:after {
     content: "";
-    background: #ccc;
+	background: #ccc;
     display: inline-block;
     height: 1px;
     position: relative;
@@ -247,9 +252,14 @@ header{
 
 
 #portfolio {
-    padding: 80px 0px 0px 0px;
+	padding: 80px 0px 0px 0px;
 }
 
+.portfolio-area{
+	background-image: url('../images/black-mosaic-tiles-1510.png');
+	background-attachment: fixed;
+	background-repeat: repeat;
+}
 .port {
 	list-style: none;
 	text-align: left;
@@ -363,14 +373,14 @@ header{
     text-align: center;
 }
 .big.button {
-    border: 1px solid #000;
+    border: 2px solid #fff;
     font-size: 2em;
-    color: #000;
+    color: #fff;
     padding: 15px 30px;
 }
 .big.button:hover {
-    background: #000;
-    color: #fff;
+    background: white;
+    color: black;
 }
 .item-space {
     margin-bottom: 30px;
@@ -417,6 +427,9 @@ header{
 
 #contact {
     color: #fff;
+}
+#hey{
+	color: #fff;
 }
 
 .mapWrap {
