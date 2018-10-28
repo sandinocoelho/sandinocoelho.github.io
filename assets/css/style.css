@@ -391,7 +391,6 @@ header{
 /////////////////////////////////////////////////////////////////////*/
 
 #testimonial {
-    background: url(../images/parallax.jpg);
     padding: 80px 0px 80px 0px;
     color: #fff;
     background-attachment: fixed;
@@ -413,7 +412,8 @@ header{
     margin: 0 auto;
     margin-bottom: 20px;
     font-style: italic;
-    font-size: 18px;
+	font-size: 18px;
+	color: #000;
 }
 .testimonila-block strong {
     font-size: 2em;
