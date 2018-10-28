@@ -419,6 +419,13 @@ header{
     font-size: 2em;
 }
 
+#testimonila-linkedin-icon {
+	text-align: center;
+	border: 0px;
+	max-width: 50px;
+    max-height: 50px;
+}
+
 
 /* ///////////////////////////////////////////////////////////////////// 
 //  07 - Contact
