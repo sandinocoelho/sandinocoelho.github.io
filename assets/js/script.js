@@ -170,11 +170,12 @@ function scroll() {
 function initMap() {
 // The location of Fortaleza -3.7329494,-38.5208813
 var fortaleza = {lat: -3.7329494, lng: -38.5208813};
+var recife = {lat: -8.0555435, lng: -34.8790755}
 // The map, centered at Uluru
 var map = new google.maps.Map(
-    document.getElementById('map'), {zoom: 10, center: fortaleza});
+    document.getElementById('map'), {zoom: 10, center: recife});
 // The marker, positioned at Uluru
-var marker = new google.maps.Marker({position: fortaleza, map: map});
+var marker = new google.maps.Marker({position: recife, map: map});
 }
 
 //google.maps.event.addDomListener(window, 'load', initialize);
